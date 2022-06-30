@@ -32,25 +32,25 @@ const CollectionStats = ({ stats }) => {
     <div className={style.wrapper}>
       <div className={style.statContainer}>
         <p className={style.statItem}>{formatStat(stats?.total_supply)}</p>
-        <span className={style.statTitle}>items</span>
+        <span className={style.statTitle}>Sản phẩm</span>
       </div>
       <div className={style.statContainer}>
         <p className={style.statItem}>{formatStat(stats?.num_owners)}</p>
-        <span className={style.statTitle}>owners</span>
+        <span className={style.statTitle}>Sở hữu</span>
       </div>
       <div className={style.statContainer}>
         <div className={style.statWithEthContainer}>
           <Image height={20} width={20} src='/eth-logo.svg' alt='Eth Logo' />
           <p className={style.statItem}>{formatStat(stats?.floor_price)}</p>
         </div>
-        <span className={style.statTitle}>floor price</span>
+        <span className={style.statTitle}>Giá sàn</span>
       </div>
       <div className={`${style.statContainer}`}>
         <div className={style.statWithEthContainer}>
           <Image height={20} width={20} src='/eth-logo.svg' alt='Eth Logo' />
           <p className={style.statItem}>{formatStat(stats?.total_volume)}</p>
         </div>
-        <span className={style.statTitle}>volume traded</span>
+        <span className={style.statTitle}>Giao dịch</span>
       </div>
     </div>
   )

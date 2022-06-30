@@ -13,7 +13,7 @@ const SearchInput = () => {
       <input
         className={style.input}
         type='text'
-        placeholder='Search items, collections, and accounts'
+        placeholder='Tìm kiếm nội dung, ảnh hoặc người dùng...'
       />
     </div>
   )

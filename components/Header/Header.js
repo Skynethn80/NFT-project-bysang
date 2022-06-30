@@ -48,19 +48,19 @@ const Navbar = () => {
 
   const menus = [
     {
-      name: 'Explore',
+      // name: 'Explore',
       href: '#',
     },
     {
-      name: 'Stats',
+      // name: 'Stats',
       href: '#',
     },
     {
-      name: 'Resources',
+      // name: 'Resources',
       href: '#',
     },
     {
-      name: 'Create',
+      // name: 'Create',
       href: '#',
     },
   ]
